@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color: #e4e665;
+    height: 90px;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  
+}
+
+header li{
+    float: left;
+    margin-right: 20px;
+    
+}
+header li a{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+main{
+    padding-top: 90px;
+
+}
+
+.kvadrati{
+    height: 500px;
+    width: 500px;
+    background-color: #b02c9a;
+    margin: 50px auto;
+    padding: 100px ;
+    position: relative;
+    
+
+}
+.meotxe{
+    background-color: #ed0606;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+.kvadratuka{
+    height: 300px;
+    width: 300px;
+    background-color: #30de8d;
+    padding: 100px;
+    
+    
+}
+.shvilishvili{
+    height: 100px;
+    width: 100px;
+    background-color: #21bbe6;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+
+}
+.social{
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    z-index: 2;
+
+}
+.social .fb, .social .insta{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+
+}
+
+.social .fb img, .social .insta img{
+    width: 100%;
+
+
+}
